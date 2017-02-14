@@ -1,7 +1,45 @@
 # A Path to Web Development
 
 
+## Strategies
 
+- create a pile of unordered goals that target specific sets of skills
+- should I order these skills into groups like basic, intermediate and advanced?
+- what level of proficiency of what skills should a player have before working on OSS projects?
+  - depends on the project?
+
+
+
+#### Escalation of complexity
+
+0. get some experience with the basics
+0. work on a pre-existing code bases
+0. work on real projects
+
+
+##### Areas of experience
+
+* HTML & CSS
+* HTTP
+* TCP/IP
+* DNS
+* Programming
+* JavaScript
+* Node
+* Document Object Model
+* Unix & Shell
+* Git
+* Github
+* Chrome Developer Tools
+* SQL
+* Deployment / Operations
+* Problem Solving
+* Software Development
+
+
+
+
+### Playlist first-draft
 
 # Stage 1
 
