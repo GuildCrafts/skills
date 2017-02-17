@@ -175,6 +175,14 @@ If you obtained additional skills while working to acquire the skills listed her
 ## Basic JavaScript in the Browser
 
 - [ ] can explain how and why to use the DOM Ready event
+- [ ] can query for all the DOM Nodes matching a given css selector
+- [ ] can explain event bubbling
+- [ ] can explain event delegation
+- [ ] can create a DOM Node and inject it into the DOM at a given position
+- [ ] can bind an onClick event handler to a DOM node
+- [ ] can dynamically inject a script tag into the DOM
+- [ ] can create a link to a specific scroll position on the page using an anchor tagx
+
 
 ## Basic Web App Architecture
 
