@@ -29,7 +29,7 @@ If you obtained additional skills while working to acquire the skills listed her
 - [ ] can start and stop processes via `brew services` _?_
 - [ ] can explain what a UNIX `process` is
 - [ ] can search for a running process and kill it
-- [ ] can explain what `environment variables are`
+- [ ] can explain what `environment variables` are
 - [ ] can check the value of an environment variable
 - [ ] can set a new environment variable for all new shells
 - [ ] can colorize their $PS1
@@ -50,7 +50,12 @@ If you obtained additional skills while working to acquire the skills listed her
   - [ ] echo
 - [ ] can write a basic bash script _?_
 
-### Preferred Terminal
+
+_Resources_
+
+* http://jvns.ca/blog/2016/10/04/exec-will-eat-your-brain/
+
+### Terminal
 
 - [ ] can turn on infinite scroll back buffer on iTerm 2
 - [ ] can got back and forward one word with a key stroke
@@ -73,7 +78,7 @@ If you obtained additional skills while working to acquire the skills listed her
 - [ ] can install and save dependencies to a node package
 - [ ] can exports an object from one file and import it from another file
 
-### Prefered Editor
+### Editor
 
 - [ ] can open files in your preferred editor using a shell command
 - [ ] can duplicate the current line with one key command
@@ -183,6 +188,7 @@ If you obtained additional skills while working to acquire the skills listed her
 ### Chrome Developer Tools
 
 - [ ] can track asset loading requests in the network tab
+- [ ] can select an element in the DOM tree
 
 
 ## Basic JavaScript in the Browser
@@ -192,7 +198,7 @@ If you obtained additional skills while working to acquire the skills listed her
 - [ ] can explain event bubbling
 - [ ] can explain event delegation
 - [ ] can create a DOM Node and inject it into the DOM at a given position
-- [ ] can bind an event handlers to a DOM node
+- [ ] can bind event handlers to a DOM node
   - [ ] click
   - [ ] hover
   - [ ] focus
@@ -230,6 +236,12 @@ If you obtained additional skills while working to acquire the skills listed her
 
 ## Basic Relational Data Storage
 
+
+- [ ] can install postgres via homebrew
+- [ ] can start and stop postgres via `brew services`
+- [ ] can create a delete psotgres databases
+- [ ] can use the `psql` REPL to connect to postgres at a specific database
+- [ ] can `describe` a database and a table in the `psql` console
 
 - [ ] can create a table with multiple columns of different types
 - [ ] can design a schema with two tables that have a 1-1 relationship
