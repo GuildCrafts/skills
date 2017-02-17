@@ -311,21 +311,41 @@ If you get these skills down you should have an extremely firm foundation when l
   - [ ] color
   - [ ] font-size
   - [ ] font-weight
+  - [ ] flex-direction
+  - [ ] flex-wrap
+  - [ ] justify-content
+  - [ ] align-items
+  - [ ] align-content
+  - [ ] flex-grow
 - [ ] is familiar with the concept of reset stylesheet and why to use one
 - [ ] can include assets like stylesheets, javascripts and images
 - [ ] can track asset loading requests in the network tab of Chrome Developer Tools
 - [ ] can select an element in the DOM tree in Chrome Developer Tools
-- [ ] can give an example of when it's appropriate to apply styles to a node like `button { … }` as apposed to using a unique classname `.button { … }`
+- [ ] can give an example of when it's appropriate to apply styles to a node like `button { … }` as opposed to using a unique classname `.button { … }`
+- [ ] should be able to implement a simple modal
+- [ ] should be able to implement a fixed navbar
+- [ ] should be able to implement a "sticky footer"
+- [ ] should be able to implement a button that depresses when clicked
+- [ ] should be able to implement a dropdown menu
+- [ ] should be able to use a web font
+- [ ] should be able to use an Icon font
+- [ ] should be able to implement a two column layout
 
 #### Resources
 
 - http://devdocs.io/css
 - http://devdocs.io/html
+- http://caniuse.com
+- http://html5please.com/
+- https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+- https://www.w3schools.com/html/html_layout.asp
 
 #### Goals
 
 -  something like [36](https://github.com/GuildCrafts/web-development-js/issues/36) but without the JS
 -  build clones of these web sites / web pages
+- [ a goal should contain making serveral of the most common site layouts ]
+- [ a goal should contain making a modal ]
 -  https://github.com/GuildCrafts/web-development-js/issues/145
 
 
@@ -351,7 +371,7 @@ If you get these skills down you should have an extremely firm foundation when l
 - [ ] can use `debugger` to pause their code in the Chrome Developer Tools Debugger
 - [ ] can iterate over a collection of DOM nodes
 - ~~[ ] can dynamically inject a script tag into the DOM~~
-- ~~[ ] can trigger an event when clicking outside of element~~
+- ~~[ ] can trigger an action when clicking outside of element~~
 - ~~[ ] can make an AJAX / XHR call~~
 
 
@@ -359,7 +379,9 @@ If you get these skills down you should have an extremely firm foundation when l
 
 - [we should have a bunch of good goals here]
 - [ a goal should include implementing horizontal tabs ]
+  - https://www.w3schools.com/howto/howto_js_tabs.asp
 - [ a goal should include a left sidebar slide out ]
+- [ a goal should include re-implementing simple input-output exercises that were done in "Basic Programming" again using forms ]
 - goal idea:
   - series of simple interfaces to build with escalating complexity
     - 1) two fields that add and show a total
