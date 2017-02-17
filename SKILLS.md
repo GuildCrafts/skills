@@ -28,6 +28,9 @@
 * transitions
 * animations
 * Semantic HTML
+* URLs
+  * anatomy
+  * relative vs absolute path
 
 ## HTTP
 
@@ -182,6 +185,8 @@
 * pipes
 * redirects
 * exit status
+* paths
+  * relative vs absolute path
 
 ### Node
 

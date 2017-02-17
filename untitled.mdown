@@ -1,7 +1,5 @@
 # Jared Trail
 
-v3.892
-
 *NOTE: This document is a work in progress*
 *NOTE: skills thats are striked through ~~like this~~ are too advanced and belong in a future skill grouping*
 
@@ -29,7 +27,7 @@ At the end of each project:
 ## Skill Groups
 
 0. [Basic Programming Environment](#basic-programming-environment)
-0. [Basic Programming in JavaScript and Node](#basic-programming-in-javascript-and-node)
+0. [Basic Programming in JavaScript](#basic-programming-in-javascript)
 0. [Basic HTML and CSS](#basic-html-and-css)
 0. [Basic JavaScript in the Browser](#Basic-javascript-in-the-browser)
 0. [Basic Web App Architecture](#basic-web-app-architecture)
@@ -43,7 +41,7 @@ This sections covers the basics of what you'll need to know to begin programming
 
 #### Skills:
 
-*UNIX / Shell*
+**UNIX / Shell**
 
 - [ ] can explain what the `.bashrc` and `.bash_profile` files do
 - [ ] can explain what a path is
@@ -78,121 +76,109 @@ This sections covers the basics of what you'll need to know to begin programming
 - ~~[ ] can explain the file permission printed by 'ls -la'~~
 - ~~[ ] can change the permissions of a file~~
 
+*Resources*
 
-*Terminal*
+* http://jvns.ca/blog/2016/10/04/exec-will-eat-your-brain/
+* https://ss64.com/osx/syntax-bashkeyboard.html
+* https://www.digitalocean.com/community/tutorials/an-introduction-to-linux-basics
+* http://linuxcommand.org/lc3_learning_the_shell.php
+* https://www.digitalocean.com/community/tutorials/an-introduction-to-the-linux-terminal
+* The [Linux: Back to Basics](https://www.youtube.com/playlist?annotation_id=annotation_311646059&feature=iv&list=PLII6oL6B7q78PKy6_R6JTkkYjVXZBZcVq&src_vid=2FiQSLdnBqA) video series
+* https://www.udacity.com/course/linux-command-line-basics--ud595
+
+**Terminal**
 
 - [ ] can turn on infinite scroll back buffer on iTerm 2
 - [ ] can go back and forward one word with a key stroke
-- [ ] can disable the "copy on text select" feature
 - ~~[ ] can split screen~~
+- [ ] can disable the "copy on text select" feature
 
-*Git*
+*Resources*
+
+* https://www.iterm2.com/
+* `brew cask install iterm2`
+* [iTerm2 Features](https://www.youtube.com/watch?v=KJEN-GFSkrU)
+* [iTerm2 Tricks](https://www.youtube.com/watch?v=SoTDXeyz3AE)
+
+
+**Git**
 
 - [ ] can create a new git repository
 - [ ] can push a new git repository up to Github
 - [ ] can clone an existing git repository
 - [ ] can push and pull to and from a remote git repository
 - [ ] can commit using `git add --patch`
-- ~~[ ] can undo the previous commit using `git reset`~~
+- [ ] can undo the previous commit using `git reset`
 - [ ] can tell git to ignore files with `.gitignore`
 - [ ] can create a Github pull request
 - ~~[ ] can rebase a branch~~
 - ~~[ ] can cherry-pick a commit~~
 - ~~[ ] can use `git rebase --interactive`~~
 
+*Resources*
 
-*Editor*
+* `brew install git`
+* https://try.github.io/levels/1/challenges/1
+* https://git-scm.com/docs/gittutorial
+* https://www.udacity.com/course/how-to-use-git-and-github--ud775
+* https://github.com/jlord/git-it
+* https://github.com/jlord/git-it-electron
+
+**Editor**
 
 - [ ] can open files in your preferred editor using a shell command
 - [ ] can duplicate the current line with one key command
 - [ ] can enable "save of blur" or "autosave"
 
-*Homebrew*
-
-- [ ] can install `git` via homebrew
-- [ ] can install `node` via homebrew
-- [ ] can install `sublime-text` via `brew cask`
-- [ ] can install `atom` via `brew cask`
-
-*Utilities*
-
-- [ ] can paste from a clipboard history buffer (like jumpcut)
-
-
-#### Resources
-
-*UNIX / Shell*
-
-- http://jvns.ca/blog/2016/10/04/exec-will-eat-your-brain/
-- https://ss64.com/osx/syntax-bashkeyboard.html
-- https://www.digitalocean.com/community/tutorials/an-introduction-to-linux-basics
-- http://linuxcommand.org/lc3_learning_the_shell.php
-- https://www.digitalocean.com/community/tutorials/an-introduction-to-the-linux-terminal
-- The [Linux: Back to Basics](https://www.youtube.com/playlist?annotation_id=annotation_311646059&feature=iv&list=PLII6oL6B7q78PKy6_R6JTkkYjVXZBZcVq&src_vid=2FiQSLdnBqA) video series
-- https://www.udacity.com/course/linux-command-line-basics--ud595
-
-
-*Terminal*
-
-- https://www.iterm2.com/
-- `brew cask install iterm2`
-- [iTerm2 Features](https://www.youtube.com/watch?v=KJEN-GFSkrU)
-- [iTerm2 Tricks](https://www.youtube.com/watch?v=SoTDXeyz3AE)
-
-
-*Git*
-
-- `brew install git`
-- https://try.github.io/levels/1/challenges/1
-- https://git-scm.com/docs/gittutorial
-- https://www.udacity.com/course/how-to-use-git-and-github--ud775
-- https://github.com/jlord/git-it
-- https://github.com/jlord/git-it-electron
-
-*Editor*
+*Resources*
 
 - Sublime Text 2 suffs here
 - Atom stuffs here
 
-*Homebrew*
+**Utilities**
 
-- https://brew.sh/
+- [ ] can paste from a clipboard history buffer (like jumpcut)
 
-*Utilities*
+*Resources*
 
 - `brew cask install humpcut`
 
 
-
 #### Goals
 
-- [TBD: A workstation setup guide]
-- [TBD: Some git basics tutorials]
+- A workstation setup guide
+- Some git basics tutorials
 
 
 
 
 
-### Basic Programming in JavaScript and Node
+### Basic Programming in JavaScript
 
 #### Skills
 
-**Node:**
+**Node**
+
 - [ ] can install node via homebrew
-- [ ] can create and execute a JavaScript file using node
-- [ ] can exports an object from one file and import it from another file
 - [ ] can create a new node package using `npm init`
+- ~~[ ] can define what `npm start` does by modifying `package.json`~~
 - [ ] can install and save dependencies to a node package
+- [ ] can exports an object from one file and import it from another file
+- [ ] you can install the `serve` npm package globally
 - [ ] can add `./node_modules/.bin` to your `$PATH`
+- ~~[ ] can define what `npm start` does by modifying `package.json`~~
+- ~~[ ] can install node packages as a dependency~~
+- ~~[ ] can install node packages as a development dependency~~
+
+*Resources*
+
+- https://github.com/workshopper/learnyounode
+- .
+
+**JavaScript**
+
+- [ ] can create and execute a JavaScript file using node
 - [ ] can write to STDOUT using `console.log`
-- [ ] can access environment variables
-- [ ] can access command line arguments `process.argv`
-- [ ] can run a script with environment variables specified in the terminal command
-- [ ] can read and write the contents of a file
-- [ ] can append to a file
-
-**Programming**
-
 - [ ] can explain what an operator is and can list several common ones
 - [ ] can explain the concept of operator precedence and can show how to be explicit about it
 - [ ] can use the following objects:
@@ -204,6 +190,7 @@ This sections covers the basics of what you'll need to know to begin programming
   - [ ] if / else
   - [ ] return
   - [ ] while / for
+- [ ] can explain how closure scope inheritance in JavaScript works
 - [ ] can articulate the difference between explicit and implicit returns
 - [ ] can explain how a function can be passed into another function and can list at least 2 examples of when you might do that
 - [ ] can explain what each of these enumerable methods do
@@ -213,32 +200,24 @@ This sections covers the basics of what you'll need to know to begin programming
   - [ ] find
 - [ ] can explain a callback and give 1 example of when we would need one
 - [ ] can read an error backtrace and identify the line of their code that led to that error
-- [ ] can write simple tests using `assert`
-
-**JavaScript:**
-
-- [ ] can explain how closure scope inheritance in JavaScript works
 - [ ] can use `console.log` to debug errors in a program
+- [ ] can access environment variables
 - [ ] can implement a `Set` Object using a JavaScript Constructor
 - [ ] can explain the `this` keyword
 - [ ] can articulate the difference between `==` and `===` in JavaScript
 - [ ] can explain the JavaScript event loop
 - [ ] can use `setTimeout` to delay code
-- [ ] can articulate the difference between `function open(){}` vs `open = function(){}`
+- [ ] can run a script with environment variables specified
 - ~~[ ] can create a new `Promise`~~
 - ~~[ ] can create a Linked List~~
 
 *Resources:*
 
-- https://github.com/workshopper/learnyounode
 - https://github.com/workshopper/javascripting
 
 #### Goals
 
-- IDEA: goal to learn testing:
-  - learn about code objects and enumerable functions
-  - then write a simple `assert` function yourself
-  - then use it to write tests for those native objects
+- [ ] TBD
 
 ### Basic HTML and CSS
 
@@ -414,6 +393,7 @@ using the RESTful routing pattern
 - [ ] can implement the routes for a nested RESETful resource
 
 
+**More Advanced Skills**
 
 
 
@@ -435,18 +415,5 @@ Leave your trace! Please leave this trail better than when you found it. Please 
 - https://www.khanacademy.org/
 - https://www.freecodecamp.com/
 - https://frontendmasters.com/
-
-------
-
-
-## Homeless Skills
-
-
-**Node**
-
-- ~~[ ] you can install the `serve` npm package globally~~
-- ~~[ ] can create a new node package using `npm init`~~
-- ~~[ ] can define what `npm start` does by modifying `package.json`~~
-- ~~[ ] can define what `npm start` does by modifying `package.json`~~
-- ~~[ ] can install node packages as a dependency~~
-- ~~[ ] can install node packages as a development dependency~~
+-
+-

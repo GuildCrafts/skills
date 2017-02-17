@@ -5,6 +5,11 @@ This trail is intended to lead you to working on Real World Software Projects (O
 
 (5, 6, 8, 9, 10) - Jared makes the goals
 
+
+Programming Environment / Essential Toolbox Goal - Team Size 1
+Basic Web App Architecture - Team Size 1
+
+
 ## Week 1 - Javascript Basics - Team Size 1
 
 - Basic programming
