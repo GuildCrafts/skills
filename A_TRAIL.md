@@ -1,5 +1,14 @@
 # Another Trail
 
+
+The guide is meant to:
+
+- serve as an example path through the vast landscape of web development skills
+- provide a sense of skill dependency
+- serve as a reminder of what to focus on while working on goals
+
+
+
 These skills can be acquired in any order and by working on any project or goal.
 
 When you are working on a project make sure you are regularly asking yourself: "Am I working toward acquiring all the skills on this trail?"
@@ -23,9 +32,9 @@ I recommend you attempt to obtain the following groups of skills, in order. The 
 0. [Cutting Edge Web App Architecture](#cutting-edge-web-app-architecture)
 
 
-## Basic Programming Environment
+### Basic Programming Environment
 
-### UNIX / Shell
+#### UNIX / Shell
 
 - [ ] can explain what the `.bashrc` and `.bash_profile` files do
 - [ ] can explain what the $PATH environment variable is for
@@ -61,7 +70,7 @@ _Resources_
 * http://jvns.ca/blog/2016/10/04/exec-will-eat-your-brain/
 
 
-### Terminal
+#### Terminal
 
 - [ ] can turn on infinite scroll back buffer on iTerm 2
 - [ ] can go back and forward one word with a key stroke
@@ -72,7 +81,7 @@ _Resources_
 * `brew cask install iterm2`
 * https://ss64.com/osx/syntax-bashkeyboard.html
 
-### Git
+#### Git
 
 - [ ] can create a new git repository
 - [ ] can push a new git repository up to Github
@@ -88,7 +97,7 @@ _Resources_
 * https://try.github.io/levels/1/challenges/1
 * https://git-scm.com/docs/gittutorial
 
-### Node
+#### Node
 
 - [ ] can install node via homebrew
 - [ ] can create a new node package using `npm init`
@@ -100,13 +109,13 @@ _Resources_
 
 *
 
-### Editor
+#### Editor
 
 - [ ] can open files in your preferred editor using a shell command
 - [ ] can duplicate the current line with one key command
 
 
-### Utilities
+#### Utilities
 
 - [ ] can paste from a clipboard history buffer (like jumpcut)
 
@@ -114,7 +123,7 @@ _Resources_
 
 
 
-## Basic Programming in JavaScript
+### Basic Programming in JavaScript
 
 
 - [ ] can create and execute a JavaScript file using node
@@ -154,7 +163,7 @@ _Resources_
 
 
 
-## Basic HTML & CSS
+### Basic HTML & CSS
 
 - [ ] can explain how HTML is a tree
 - [ ] can explain the box model
@@ -208,13 +217,13 @@ _Resources_
 - [ ] is familiar with the concept of reset stylesheet and know why they should use one
 - [ ] can include assets like stylesheets, javascripts and images
 
-### Chrome Developer Tools
+#### Chrome Developer Tools
 
 - [ ] can track asset loading requests in the network tab
 - [ ] can select an element in the DOM tree
 
 
-## Basic JavaScript in the Browser
+### Basic JavaScript in the Browser
 
 - [ ] can explain how and why to use the DOM Ready event
 - [ ] can query for all the DOM Nodes matching a given css selector
@@ -240,7 +249,7 @@ _Resources_
 *NOTE: no AJAX here yet
 
 
-## Basic Web App Architecture
+### Basic Web App Architecture
 
 - [ ] can explain the requests & response life cycle
 - [ ] can articulate the difference between a standard HTTP request and an AJAX / XHR request
@@ -257,7 +266,7 @@ _Resources_
 - [ ] can render `JSON` in response to a request
 
 
-## Basic Relational Data Storage
+### Basic Relational Data Storage
 
 
 - [ ] can install postgres via homebrew
@@ -285,7 +294,7 @@ _Resources_
 
 
 
-## Intermediate Web App Architecture
+### Intermediate Web App Architecture
 
 using a database
 using the RESTful routing pattern
@@ -298,14 +307,23 @@ using the RESTful routing pattern
 
 
 
-## Advanced Web App Architecture
+### Advanced Web App Architecture
 
 - [ ] webpack
 
 
-## Cutting Edge Web App Architecture
+### Cutting Edge Web App Architecture
 
 using sockets
 
 
 
+
+
+
+## Contribution
+
+Leave your trace! Please leave this trail better than when you found it. Please consider contributing:
+
+- links to resources that helped you
+- additional skills you learned along your way
