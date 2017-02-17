@@ -7,7 +7,21 @@ When you are working on a project make sure you are regularly asking yourself: "
 If you obtained additional skills while working to acquire the skills listed here, feel free to add those to the list. Whoever wrote this would probably love the feedback ;P
 
 
-## Programming Environment
+0. [Basic Programming Environment](#basic-programming-environment)
+0. [Basic Programming in JavaScript](#basic-programming-in-javascript)
+0. [Basic HTML & CSS](#basic-html-and-css)
+0. [Basic JavaScript in the Browser](#Basic-javascript-in-the-browser)
+0. [Basic Web App Architecture](#basic-web-app-architecture)
+0. [Relational Data Storage](#relational-data-storage)
+0. [Intermediate Web App Architecture](#intermediate-web-app-architecture)
+0. [Advanced Web App Architecture](#advanced-web-app-architecture)
+0. [Cutting Edge Web App Architecture](#cutting-edge-web-app-architecture)
+
+
+
+
+<a name="basic-programming-environment"></a>
+## Basic Programming Environment
 
 ### UNIX / Shell
 
@@ -43,6 +57,43 @@ If you obtained additional skills while working to acquire the skills listed her
 ### Editor
 
 - [ ] can open files in your preferred editor using a shell command
+
+
+
+
+## Basic Programming in JavaScript
+
+
+- [ ] can create and execute a JavaScript file
+- [ ] can write to STDOUT using `console.log`
+- [ ] can explain what an operator is and can list several common ones
+- [ ] can explain the concept of operator precedence and can show how to be explicit about it
+- [ ] can use the following objects:
+  - [ ] Array
+  - [ ] Hash / Map
+  - [ ] Function
+- [ ] can explain what "flow control" means
+- [ ] can use the following tools to control the flow of a program:
+  - [ ] if / else
+  - [ ] return
+  - [ ] while / for
+- [ ] can explain how closure scope inheritance in JavaScript works
+- [ ] can articulate the difference between explicit and implicit returns
+- [ ] can explain how a function can be passed into another function and can list at least 2 reasons why that is useful
+- [ ] can explain what each of these enumerable methods do
+  - [ ] each
+  - [ ] map
+  - [ ] filter
+  - [ ] find
+- [ ] can explain a callback and give 1 example of when we would need one
+- [ ] can read an error backtrace and identify the line of their code that lead to that error
+- [ ] can well place logging statements to debug a program
+- [ ] can access environment variables
+- [ ] can implement a `Set` Object using a JavaScript Constructor
+- [ ] can articulate the difference between `==` and `===` in JavaScript
+- [ ] can explain the JavaScript event loop
+
+
 
 
 
@@ -96,39 +147,6 @@ If you obtained additional skills while working to acquire the skills listed her
 
 
 
-## Basic Programming in JavaScript
-
-
-- [ ] can create and execute a JavaScript file
-- [ ] can write to STDOUT using `console.log`
-- [ ] can explain what an operator is and can list several common ones
-- [ ] can explain the concept of operator precedence and can show how to be explicit about it
-- [ ] can use the following objects:
-  - [ ] Array
-  - [ ] Hash / Map
-  - [ ] Function
-- [ ] can explain what "flow control" means
-- [ ] can use the following tools to control the flow of a program:
-  - [ ] if / else
-  - [ ] return
-  - [ ] while / for
-- [ ] can explain how closure scope inheritance in JavaScript works
-- [ ] can articulate the difference between explicit and implicit returns
-- [ ] can explain how a function can be passed into another function and can list at least 2 reasons why that is useful
-- [ ] can explain what each of these enumerable methods do
-  - [ ] each
-  - [ ] map
-  - [ ] filter
-  - [ ] find
-- [ ] can explain a callback and give 1 example of when we would need one
-- [ ] can read an error backtrace and identify the line of their code that lead to that error
-- [ ] can well place logging statements to debug a program
-- [ ] can access environment variables
-- [ ] can implement a `Set` Object using a JavaScript Constructor
-- [ ] can articulate the difference between `==` and `===` in JavaScript
-- [ ] can explain the JavaScript event loop
-
-
 ## Basic Web App Architecture
 
 - [ ] can explain the requests & response life cycle
@@ -153,7 +171,6 @@ If you obtained additional skills while working to acquire the skills listed her
 - [ ] can design a schema with two tables that have a 1-1 relationship
 - [ ] can design a schema with two tables that have a 1-N relationship
 - [ ] can design a schema with two tables that have an N-N relationship
-- [ ] can design a schema for at a set of data and list of questions that need answering
 - [ ] can write select queries that use the following features:
   - [ ] *
   - [ ] FROM
@@ -161,6 +178,8 @@ If you obtained additional skills while working to acquire the skills listed her
 - [ ] can write a 1-1 relationship query
 - [ ] can write a 1-N relationship query
 - [ ] can write a N-N relationship query
+- [ ] can explain "normalization" and "demoralization"
+- [ ] can design a schema for a given data set and list of questions that need answering
 
 
 
