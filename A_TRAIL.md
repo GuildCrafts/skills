@@ -37,7 +37,9 @@ At the end of each project:
 
 ### Basic Programming Environment
 
-This sections covers the basics of what you'll need to know to begin programming on a UNIX system. This section assumes you are working in a [BASH shell](https://en.wikipedia.org/wiki/Bash_(Unix_shell)).
+This sections covers the basics of what you'll need to know to begin programming on a UNIX system.
+
+This section assumes you are working in a [BASH shell](https://en.wikipedia.org/wiki/Bash_(Unix_shell)).
 
 #### Skills:
 
@@ -252,7 +254,11 @@ This sections covers the basics of what you'll need to know to begin programming
   - then write a simple `assert` function yourself
   - then use it to write tests for those native objects
 
+
 ### Basic HTML and CSS
+
+In this skill group were focused on generating static HTML & CSS. No JavaScript. No animations. No interactions.
+If you get these skills down you should have an extremely firm foundation when learn how to make more complex, responsive and interactive components.
 
 #### Skills
 
@@ -305,16 +311,23 @@ This sections covers the basics of what you'll need to know to begin programming
   - [ ] color
   - [ ] font-size
   - [ ] font-weight
-- [ ] is familiar with the concept of reset stylesheet and know why they should use one
+- [ ] is familiar with the concept of reset stylesheet and why to use one
 - [ ] can include assets like stylesheets, javascripts and images
 - [ ] can track asset loading requests in the network tab of Chrome Developer Tools
 - [ ] can select an element in the DOM tree in Chrome Developer Tools
+- [ ] can give an example of when it's appropriate to apply styles to a node like `button { … }` as apposed to using a unique classname `.button { … }`
+
+#### Resources
+
+- http://devdocs.io/css
+- http://devdocs.io/html
 
 #### Goals
 
 -  something like [36](https://github.com/GuildCrafts/web-development-js/issues/36) but without the JS
 -  build clones of these web sites / web pages
 -  https://github.com/GuildCrafts/web-development-js/issues/145
+
 
 ### Basic JavaScript in the Browser
 
@@ -324,6 +337,8 @@ This sections covers the basics of what you'll need to know to begin programming
 - [ ] can query for all the DOM Nodes matching a given css selector
 - [ ] can explain event bubbling
 - [ ] can explain event delegation
+- [ ] can replace the text content of a DOM node
+- [ ] can replace the HTML content of a DOM node
 - [ ] can create a DOM Node and inject it into the DOM at a given position
 - [ ] can bind event handlers to a DOM node
   - [ ] click
@@ -332,19 +347,23 @@ This sections covers the basics of what you'll need to know to begin programming
   - [ ] blur
   - [ ] keyDown / keyUp
 - [ ] can prevent the default behavior of a DOM event
-- [ ] can dynamically inject a script tag into the DOM _?_
 - [ ] can create a link to a specific scroll position on the page using an anchor tag
 - [ ] can use `debugger` to pause their code in the Chrome Developer Tools Debugger
-- [ ] can replace the text content of a DOM node
-- [ ] can replace the HTML content of a DOM node
 - [ ] can iterate over a collection of DOM nodes
+- ~~[ ] can dynamically inject a script tag into the DOM~~
 - ~~[ ] can trigger an event when clicking outside of element~~
 - ~~[ ] can make an AJAX / XHR call~~
 
 
 #### Goals
 
-- TBD
+- [we should have a bunch of good goals here]
+- [ a goal should include implementing horizontal tabs ]
+- [ a goal should include a left sidebar slide out ]
+- goal idea:
+  - series of simple interfaces to build with escalating complexity
+    - 1) two fields that add and show a total
+    - 2)
 
 
 ### Basic Web App Architecture
