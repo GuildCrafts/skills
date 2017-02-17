@@ -7,6 +7,11 @@ When you are working on a project make sure you are regularly asking yourself: "
 If you obtained additional skills while working to acquire the skills listed here, feel free to add those to the list. Whoever wrote this would probably love the feedback ;P
 
 
+## Skill Groups
+
+I recommend you attempt to obtain the following groups of skills, in order. The skill groupings are ordered but the skills listed in each group are not ordered.
+
+
 0. [Basic Programming Environment](#basic-programming-environment)
 0. [Basic Programming in JavaScript](#basic-programming-in-javascript)
 0. [Basic HTML & CSS](#basic-html--css)
@@ -59,7 +64,7 @@ _Resources_
 ### Terminal
 
 - [ ] can turn on infinite scroll back buffer on iTerm 2
-- [ ] can got back and forward one word with a key stroke
+- [ ] can go back and forward one word with a key stroke
 
 _Resources_
 
@@ -91,6 +96,10 @@ _Resources_
 - [ ] can install and save dependencies to a node package
 - [ ] can exports an object from one file and import it from another file
 
+_Resources_
+
+*
+
 ### Editor
 
 - [ ] can open files in your preferred editor using a shell command
@@ -108,7 +117,7 @@ _Resources_
 ## Basic Programming in JavaScript
 
 
-- [ ] can create and execute a JavaScript file
+- [ ] can create and execute a JavaScript file using node
 - [ ] can write to STDOUT using `console.log`
 - [ ] can explain what an operator is and can list several common ones
 - [ ] can explain the concept of operator precedence and can show how to be explicit about it
@@ -138,6 +147,7 @@ _Resources_
 - [ ] can articulate the difference between `==` and `===` in JavaScript
 - [ ] can explain the JavaScript event loop
 - [ ] can use `setTimeout` to delay code
+- [ ] can run a script with environment variables specified
 
 - [ ] Promises _?_
 
