@@ -11,12 +11,12 @@ If you obtained additional skills while working to acquire the skills listed her
 
 ### UNIX / Shell
 
-- [ ] can articulate what the `.bashrc` and `.bash_profile` files do
+- [ ] can explain what the `.bashrc` and `.bash_profile` files do
 - [ ] can explain what the $PATH environment variable is for
 - [ ] can add and remove paths from their $PATH
 - [ ] can install a package via homebrew
 - [ ] can start and stop processes via `brew services` _L2?_
-- [ ] can articulate what a UNIX `process` is
+- [ ] can explain what a UNIX `process` is
 - [ ] can search for a running process and kill it
 - [ ] can explain what `environment variables are`
 - [ ] can check the value of an environment variable
@@ -92,27 +92,28 @@ If you obtained additional skills while working to acquire the skills listed her
   - [ ] font-size
   - [ ] font-weight
 - [ ] is familiar with the concept of reset stylesheet and know why they should use one
+- [ ] can include assets like stylesheets, javascripts and images
 
 
 
 ## Basic Programming in JavaScript
 
 
-- [ ] can articulate what an operator is and can list several common ones
-- [ ] can articulate the concept of operator precedence and can show how to be explicit about it
-- [ ] is familiar with and can use these object
+- [ ] can explain what an operator is and can list several common ones
+- [ ] can explain the concept of operator precedence and can show how to be explicit about it
+- [ ] can use the following objects:
   - [ ] Array
   - [ ] Hash / Map
   - [ ] Function
-- [ ] can articulate what "flow control" means
+- [ ] can explain what "flow control" means
 - [ ] can use the following tools to control the flow of a program:
   - [ ] if / else
   - [ ] return
   - [ ] while / for
-- [ ] can articulate how closure scope inheritance in JavaScript works
+- [ ] can explain how closure scope inheritance in JavaScript works
 - [ ] can articulate the difference between explicit and implicit returns
-- [ ] can articulate how a function can be passed into another function and can list at least 2 reasons why that is useful
-- [ ] can articulate what each of these enumerable methods do
+- [ ] can explain how a function can be passed into another function and can list at least 2 reasons why that is useful
+- [ ] can explain what each of these enumerable methods do
   - [ ] each
   - [ ] map
   - [ ] filter
@@ -124,3 +125,12 @@ If you obtained additional skills while working to acquire the skills listed her
 
 
 
+## Basic Web App Architecture
+
+- [ ] can explain the require & response life cycle
+- [ ] can articulate the difference between a standard HTTP request and an AJAX / XHR request
+- [ ] can articulate the difference between "front end" and "back end"
+- [ ] can draw a diagram showing how data/messages flow from the browser, to the server and back again with detail about the contents sent within those messages
+- [ ] can list the most commonly used HTTP verbs
+- [ ] can articulate the difference between a `get` and a `post` request
+- [ ]
