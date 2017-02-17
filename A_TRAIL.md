@@ -1,7 +1,5 @@
 # Jared Trail
 
-v3.892
-
 *NOTE: This document is a work in progress*
 *NOTE: skills thats are striked through ~~like this~~ are too advanced and belong in a future skill grouping*
 
@@ -177,7 +175,8 @@ This sections covers the basics of what you'll need to know to begin programming
 
 #### Skills
 
-**Node:**
+*Node:*
+
 - [ ] can install node via homebrew
 - [ ] can create and execute a JavaScript file using node
 - [ ] can exports an object from one file and import it from another file
@@ -191,7 +190,7 @@ This sections covers the basics of what you'll need to know to begin programming
 - [ ] can read and write the contents of a file
 - [ ] can append to a file
 
-**Programming**
+*Programming*
 
 - [ ] can explain what an operator is and can list several common ones
 - [ ] can explain the concept of operator precedence and can show how to be explicit about it
@@ -213,25 +212,38 @@ This sections covers the basics of what you'll need to know to begin programming
   - [ ] find
 - [ ] can explain a callback and give 1 example of when we would need one
 - [ ] can read an error backtrace and identify the line of their code that led to that error
-- [ ] can write simple tests using `assert`
 
-**JavaScript:**
+*JavaScript:*
 
 - [ ] can explain how closure scope inheritance in JavaScript works
 - [ ] can use `console.log` to debug errors in a program
 - [ ] can implement a `Set` Object using a JavaScript Constructor
 - [ ] can explain the `this` keyword
 - [ ] can articulate the difference between `==` and `===` in JavaScript
-- [ ] can explain the JavaScript event loop
-- [ ] can use `setTimeout` to delay code
 - [ ] can articulate the difference between `function open(){}` vs `open = function(){}`
+- [ ] can articulate the relationship between a function and its `.prototype` object
+- [ ] can write simple tests using `assert`
+- [ ] can explain the JavaScript event loop
+- ~~[ ] can use `setTimeout` to delay code~~
 - ~~[ ] can create a new `Promise`~~
 - ~~[ ] can create a Linked List~~
 
-*Resources:*
+#### Resources:
+
+*Node:*
 
 - https://github.com/workshopper/learnyounode
+
+
+*Programming*:
+
+- [example: read chapter N of book "…"]
+
+*JavaScript:*
+
 - https://github.com/workshopper/javascripting
+- https://github.com/jesstelford/scope-chains-closures
+
 
 #### Goals
 
