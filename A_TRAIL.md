@@ -9,7 +9,7 @@ If you obtained additional skills while working to acquire the skills listed her
 
 0. [Basic Programming Environment](#basic-programming-environment)
 0. [Basic Programming in JavaScript](#basic-programming-in-javascript)
-0. [Basic HTML & CSS](#basic-html-and-css)
+0. [Basic HTML & CSS](#basic-html--css)
 0. [Basic JavaScript in the Browser](#Basic-javascript-in-the-browser)
 0. [Basic Web App Architecture](#basic-web-app-architecture)
 0. [Relational Data Storage](#relational-data-storage)
@@ -18,9 +18,6 @@ If you obtained additional skills while working to acquire the skills listed her
 0. [Cutting Edge Web App Architecture](#cutting-edge-web-app-architecture)
 
 
-
-
-<a name="basic-programming-environment"></a>
 ## Basic Programming Environment
 
 ### UNIX / Shell
