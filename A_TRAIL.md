@@ -12,7 +12,7 @@ If you obtained additional skills while working to acquire the skills listed her
 0. [Basic HTML & CSS](#basic-html--css)
 0. [Basic JavaScript in the Browser](#Basic-javascript-in-the-browser)
 0. [Basic Web App Architecture](#basic-web-app-architecture)
-0. [Relational Data Storage](#relational-data-storage)
+0. [Basic Relational Data Storage](#basic-relational-data-storage)
 0. [Intermediate Web App Architecture](#intermediate-web-app-architecture)
 0. [Advanced Web App Architecture](#advanced-web-app-architecture)
 0. [Cutting Edge Web App Architecture](#cutting-edge-web-app-architecture)
@@ -26,12 +26,34 @@ If you obtained additional skills while working to acquire the skills listed her
 - [ ] can explain what the $PATH environment variable is for
 - [ ] can add and remove paths from their $PATH
 - [ ] can install a package via homebrew
-- [ ] can start and stop processes via `brew services` _L2?_
+- [ ] can start and stop processes via `brew services` _?_
 - [ ] can explain what a UNIX `process` is
 - [ ] can search for a running process and kill it
 - [ ] can explain what `environment variables are`
 - [ ] can check the value of an environment variable
 - [ ] can set a new environment variable for all new shells
+- [ ] can colorize their $PS1
+- [ ] can tab complete git commands
+- [ ] can explain control-c and control-d terminal key commands
+- [ ] can explain the file permission printed by 'ls -la'
+- [ ] can explain and use the following shell commands
+  - [ ] ls
+  - [ ] cd
+  - [ ] touch
+  - [ ] rm
+  - [ ] mkdir
+  - [ ] rmdir
+  - [ ] chmod
+  - [ ] pwd
+  - [ ] ps
+  - [ ] kill
+  - [ ] echo
+- [ ] can write a basic bash script _?_
+
+### Preferred Terminal
+
+- [ ] can turn on infinite scroll back buffer on iTerm 2
+- [ ] can got back and forward one word with a key stroke
 
 ### Git
 
@@ -51,9 +73,16 @@ If you obtained additional skills while working to acquire the skills listed her
 - [ ] can install and save dependencies to a node package
 - [ ] can exports an object from one file and import it from another file
 
-### Editor
+### Prefered Editor
 
 - [ ] can open files in your preferred editor using a shell command
+- [ ] can duplicate the current line with one key command
+
+
+### Utilities
+
+- [ ] can paste from a clipboard history buffer (like jumpcut)
+
 
 
 
@@ -143,6 +172,9 @@ If you obtained additional skills while working to acquire the skills listed her
 - [ ] can include assets like stylesheets, javascripts and images
 
 
+## Basic JavaScript in the Browser
+
+- [ ] can explain how and why to use the DOM Ready event
 
 ## Basic Web App Architecture
 
@@ -161,7 +193,7 @@ If you obtained additional skills while working to acquire the skills listed her
 - [ ] can render `JSON` in response to a request
 
 
-## Relational Data Storage
+## Basic Relational Data Storage
 
 
 - [ ] can create a table with multiple columns of different types
