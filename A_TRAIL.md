@@ -99,6 +99,8 @@ If you obtained additional skills while working to acquire the skills listed her
 ## Basic Programming in JavaScript
 
 
+- [ ] can create and execute a JavaScript file
+- [ ] can write to STDOUT using `console.log`
 - [ ] can explain what an operator is and can list several common ones
 - [ ] can explain the concept of operator precedence and can show how to be explicit about it
 - [ ] can use the following objects:
@@ -122,15 +124,70 @@ If you obtained additional skills while working to acquire the skills listed her
 - [ ] can read an error backtrace and identify the line of their code that lead to that error
 - [ ] can well place logging statements to debug a program
 - [ ] can access environment variables
-
+- [ ] can implement a `Set` Object using a JavaScript Constructor
+- [ ] can articulate the difference between `==` and `===` in JavaScript
+- [ ] can explain the JavaScript event loop
 
 
 ## Basic Web App Architecture
 
-- [ ] can explain the require & response life cycle
+- [ ] can explain the requests & response life cycle
 - [ ] can articulate the difference between a standard HTTP request and an AJAX / XHR request
 - [ ] can articulate the difference between "front end" and "back end"
 - [ ] can draw a diagram showing how data/messages flow from the browser, to the server and back again with detail about the contents sent within those messages
 - [ ] can list the most commonly used HTTP verbs
+- [ ] can list the most commonly used HTTP headers
 - [ ] can articulate the difference between a `get` and a `post` request
+- [ ] can explain what a port is
+- [ ] can roughly explain how a web browser talks to a web server
+- [ ] can explain how Authentication via HTTP Cookies works
+- [ ] can setup an express app with signup, login and logout functionality
+- [ ] can render `HTML` from a `pug` template in response to a request
+- [ ] can render `JSON` in response to a request
+
+
+## Relational Data Storage
+
+
+- [ ] can create a table with multiple columns of different types
+- [ ] can design a schema with two tables that have a 1-1 relationship
+- [ ] can design a schema with two tables that have a 1-N relationship
+- [ ] can design a schema with two tables that have an N-N relationship
+- [ ] can design a schema for at a set of data and list of questions that need answering
+- [ ] can write select queries that use the following features:
+  - [ ] *
+  - [ ] FROM
+  - [ ] WHERE
+- [ ] can write a 1-1 relationship query
+- [ ] can write a 1-N relationship query
+- [ ] can write a N-N relationship query
+
+
+
+
+
+
+## Intermediate Web App Architecture
+
+using a database
+using the RESTful routing pattern
+
+- [ ] can
+- [ ] can implement the routes for a RESETful resource
+- [ ] can implement the routes for a nested RESETful resource
 - [ ]
+
+
+
+
+## Advanced Web App Architecture
+
+- [ ] webpack
+
+
+## Cutting Edge Web App Architecture
+
+using sockets
+
+
+
