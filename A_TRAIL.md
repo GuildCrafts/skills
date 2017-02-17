@@ -55,10 +55,17 @@ _Resources_
 
 * http://jvns.ca/blog/2016/10/04/exec-will-eat-your-brain/
 
+
 ### Terminal
 
 - [ ] can turn on infinite scroll back buffer on iTerm 2
 - [ ] can got back and forward one word with a key stroke
+
+_Resources_
+
+* https://www.iterm2.com/
+* `brew cask install iterm2`
+* https://ss64.com/osx/syntax-bashkeyboard.html
 
 ### Git
 
@@ -69,6 +76,12 @@ _Resources_
 - [ ] can commit using `git add --patch`
 - [ ] can undo the previous commit using `git reset`
 - [ ] can tell git to ignore files with `.gitignore`
+
+_Resources_
+
+* `brew install git`
+* https://try.github.io/levels/1/challenges/1
+* https://git-scm.com/docs/gittutorial
 
 ### Node
 
