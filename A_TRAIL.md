@@ -105,20 +105,23 @@ If you obtained additional skills while working to acquire the skills listed her
   - [ ] while / for
 - [ ] can explain how closure scope inheritance in JavaScript works
 - [ ] can articulate the difference between explicit and implicit returns
-- [ ] can explain how a function can be passed into another function and can list at least 2 reasons why that is useful
+- [ ] can explain how a function can be passed into another function and can list at least 2 examples of when you might do that
 - [ ] can explain what each of these enumerable methods do
   - [ ] each
   - [ ] map
   - [ ] filter
   - [ ] find
 - [ ] can explain a callback and give 1 example of when we would need one
-- [ ] can read an error backtrace and identify the line of their code that lead to that error
-- [ ] can well place logging statements to debug a program
+- [ ] can read an error backtrace and identify the line of their code that led to that error
+- [ ] can use `console.log` to debug errors in a program
 - [ ] can access environment variables
 - [ ] can implement a `Set` Object using a JavaScript Constructor
+- [ ] can explain the `this` keyword
 - [ ] can articulate the difference between `==` and `===` in JavaScript
 - [ ] can explain the JavaScript event loop
+- [ ] can use `setTimeout` to delay code
 
+- [ ] Promises _?_
 
 
 
@@ -153,10 +156,16 @@ If you obtained additional skills while working to acquire the skills listed her
   - [ ] `.signup-form .first-name-field`
   - [ ] `table.stripped-table`
   - [ ] `a.button:hover`
+  - [ ] `.IconButton > button`
+  - [ ] `table > tr:nth-child(odd)`
 - [ ] is familiar with and can use these pseudo selectors
   - [ ] :hover
+  - [ ] :focus
   - [ ] :active
   - [ ] :visited
+  - [ ] :disabled
+  - [ ] :checked
+  - [ ] :nth-child
 - [ ] is familiar with and can use these CSS properties
   - [ ] border
   - [ ] margin
@@ -171,6 +180,10 @@ If you obtained additional skills while working to acquire the skills listed her
 - [ ] is familiar with the concept of reset stylesheet and know why they should use one
 - [ ] can include assets like stylesheets, javascripts and images
 
+### Chrome Developer Tools
+
+- [ ] can track asset loading requests in the network tab
+
 
 ## Basic JavaScript in the Browser
 
@@ -179,9 +192,23 @@ If you obtained additional skills while working to acquire the skills listed her
 - [ ] can explain event bubbling
 - [ ] can explain event delegation
 - [ ] can create a DOM Node and inject it into the DOM at a given position
-- [ ] can bind an onClick event handler to a DOM node
-- [ ] can dynamically inject a script tag into the DOM
-- [ ] can create a link to a specific scroll position on the page using an anchor tagx
+- [ ] can bind an event handlers to a DOM node
+  - [ ] click
+  - [ ] hover
+  - [ ] focus
+  - [ ] blur
+  - [ ] keyDown / keyUp
+- [ ] can prevent the default behavior of a DOM event
+- [ ] can dynamically inject a script tag into the DOM _?_
+- [ ] can create a link to a specific scroll position on the page using an anchor tag
+- [ ] can use `debugger` to pause their code in the Chrome Developer Tools Debugger
+- [ ] can replace the text content of a DOM node
+- [ ] can replace the HTML content of a DOM node
+- [ ] can iterate over a collection of DOM nodes
+
+- [ ] can trigger an event when clicking outside of element _+_
+
+*NOTE: no AJAX here yet
 
 
 ## Basic Web App Architecture
