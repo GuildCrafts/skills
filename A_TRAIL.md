@@ -1,6 +1,7 @@
 # Jared Trail
 
 *NOTE: This document is a work in progress*
+
 *NOTE: skills thats are striked through ~~like this~~ are too advanced and belong in a future skill grouping*
 
 ------
@@ -131,6 +132,7 @@ This section assumes you are working in a [BASH shell](https://en.wikipedia.org/
 - https://www.digitalocean.com/community/tutorials/an-introduction-to-the-linux-terminal
 - The [Linux: Back to Basics](https://www.youtube.com/playlist?annotation_id=annotation_311646059&feature=iv&list=PLII6oL6B7q78PKy6_R6JTkkYjVXZBZcVq&src_vid=2FiQSLdnBqA) video series
 - https://www.udacity.com/course/linux-command-line-basics--ud595
+- https://github.com/denysdovhan/learnyoubash
 
 
 *Terminal*
@@ -152,7 +154,7 @@ This section assumes you are working in a [BASH shell](https://en.wikipedia.org/
 
 *Editor*
 
-- Sublime Text 2 suffs here
+- Sublime Text 2 stuffs here
 - Atom stuffs here
 
 *Homebrew*
@@ -246,6 +248,7 @@ This guide assumes you are using Node `7.5.0` or higher
 
 - https://github.com/workshopper/javascripting
 - https://github.com/jesstelford/scope-chains-closures
+- https://github.com/timoxley/functional-javascript-workshop
 
 
 #### Goals
@@ -444,13 +447,20 @@ The skill group does NOT cover:
 
 ### Basic Relational Data Storage
 
+AKA Basic Postgresql
+
 #### Skills
+
+*Postgres:*
 
 - [ ] can install postgres via homebrew
 - [ ] can start and stop postgres via `brew services`
 - [ ] can create a delete psotgres databases
 - [ ] can use the `psql` REPL to connect to postgres at a specific database
 - [ ] can `describe` a database and a table in the `psql` console
+
+*SQL:*
+
 - [ ] can create a table with multiple columns of different types
 - [ ] can design a schema with two tables that have a 1-1 relationship
 - [ ] can design a schema with two tables that have a 1-N relationship
@@ -468,6 +478,7 @@ The skill group does NOT cover:
 
 #### Resources
 
+- `brew cask install postico`
 
 #### Goals
 
@@ -476,7 +487,15 @@ The skill group does NOT cover:
 
 ### Intermediate Programming in JavaScript and Node
 
-Here we dive deeper into the asynchronous nature of JavaScript
+Here we dive deeper into the asynchronous nature of JavaScript, Constructors and the true meaning of `this`
+
+#### Skills
+
+*Programming:*
+
+- [ ] (OO programming)
+
+*JavaScript*
 
 - [ ] (some usage of the "async" library)
 - [ ] can describe the JavaScript event loop
@@ -488,13 +507,23 @@ Here we dive deeper into the asynchronous nature of JavaScript
 - [ ] can create a simple EventEmitter
 - [ ] can use `.bind`, `.call`, and `.apply`
 
-*Resources:*
+#### Resources:
 
 - https://github.com/stevekane/promise-it-wont-hurt
 - https://github.com/bulkan/async-you
+- https://github.com/sporto/planetproto
+- https://github.com/finnp/test-anything
+
+#### Goals
+
+- [some convoluted asyncronous puzzle]
 
 
 ### Intermediate Web App Architecture
+
+includes:
+
+- implementing an API
 
 #### Skills
 
@@ -507,7 +536,12 @@ using the RESTful routing pattern
 
 
 
+#### Goals
 
+- Bookstore
+-  [TDD Bookstore](https://github.com/GuildCrafts/web-development-js/issues/106)
+- [Tweet-reGenerator](https://github.com/GuildCrafts/web-development-js/issues/111)
+- [Shared link library API ](https://github.com/GuildCrafts/web-development-js/issues/28)
 
 
 ## Contribution
