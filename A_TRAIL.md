@@ -31,6 +31,7 @@ At the end of each project:
 0. [Basic HTML and CSS](#basic-html-and-css)
 0. [Basic JavaScript in the Browser](#Basic-javascript-in-the-browser)
 0. [Basic Web App Architecture](#basic-web-app-architecture)
+0. [Intermediate Programming in JavaScript and Node](#intermediate-programming-in-javascript-and-node)
 0. [Basic Relational Data Storage](#basic-relational-data-storage)
 0. [Intermediate Web App Architecture](#intermediate-web-app-architecture)
 
@@ -175,13 +176,15 @@ This section assumes you are working in a [BASH shell](https://en.wikipedia.org/
 
 ### Basic Programming in JavaScript and Node
 
+This guide assumes you are using Node `7.5.0` or higher
+
 #### Skills
 
 *Node:*
 
 - [ ] can install node via homebrew
 - [ ] can create and execute a JavaScript file using node
-- [ ] can exports an object from one file and import it from another file
+- [ ] can exports an object in one file and import it from another file
 - [ ] can create a new node package using `npm init`
 - [ ] can install and save dependencies to a node package
 - [ ] can add `./node_modules/.bin` to your `$PATH`
@@ -217,24 +220,22 @@ This section assumes you are working in a [BASH shell](https://en.wikipedia.org/
 
 *JavaScript:*
 
-- [ ] can explain how closure scope inheritance in JavaScript works
+
 - [ ] can use `console.log` to debug errors in a program
-- [ ] can implement a `Set` Object using a JavaScript Constructor
-- [ ] can explain the `this` keyword
 - [ ] can articulate the difference between `==` and `===` in JavaScript
 - [ ] can articulate the difference between `function open(){}` vs `open = function(){}`
 - [ ] can articulate the relationship between a function and its `.prototype` object
 - [ ] can write simple tests using `assert`
-- [ ] can explain the JavaScript event loop
-- ~~[ ] can use `setTimeout` to delay code~~
-- ~~[ ] can create a new `Promise`~~
-- ~~[ ] can create a Linked List~~
+- [ ] can explain how Lexical Scope chaining works in JavaScript
+- ~~(anything around Constructors or `this`)~~
+- ~~(anything asynchronous)~~
 
 #### Resources:
 
 *Node:*
 
 - https://github.com/workshopper/learnyounode
+- https://github.com/jesstelford/scope-chains-closures
 
 
 *Programming*:
@@ -351,6 +352,18 @@ If you get these skills down you should have an extremely firm foundation when l
 
 ### Basic JavaScript in the Browser
 
+This skill group covers:
+
+- accessing DOM nodes
+- modifying DOM nodes
+- responding to user interactions
+- debugging with chrome developer tools
+
+It explicitly does NOT cover:
+
+- any frameworks (including jQuery)
+- AJAX / XHR requests
+
 #### Skills
 
 - [ ] can explain how and why to use the DOM Ready event
@@ -390,6 +403,22 @@ If you get these skills down you should have an extremely firm foundation when l
 
 ### Basic Web App Architecture
 
+This skill group covers:
+
+- creating an HTTP server
+- serving static HTML, CSS and other assets
+- rendering HTML with a template
+- setting reading and writing cookies
+- rendering the correct HTTP status code and headers
+- understanding a bit about how ports play a role in internet networking
+- Authentication using HTTP Cookies
+
+The skill group does NOT cover:
+
+- using a database
+- AJAX / XHR requests
+- asset packaging like webpack or browserify
+
 #### Skills
 
 - [ ] can explain the requests & response life cycle
@@ -422,7 +451,6 @@ If you get these skills down you should have an extremely firm foundation when l
 - [ ] can create a delete psotgres databases
 - [ ] can use the `psql` REPL to connect to postgres at a specific database
 - [ ] can `describe` a database and a table in the `psql` console
-
 - [ ] can create a table with multiple columns of different types
 - [ ] can design a schema with two tables that have a 1-1 relationship
 - [ ] can design a schema with two tables that have a 1-N relationship
@@ -431,11 +459,14 @@ If you get these skills down you should have an extremely firm foundation when l
   - [ ] *
   - [ ] FROM
   - [ ] WHERE
+  - [ ] ORDER
 - [ ] can write a 1-1 relationship query
 - [ ] can write a 1-N relationship query
 - [ ] can write a N-N relationship query
 - [ ] can explain "normalization" and "demoralization"
 - [ ] can design a schema for a given data set and list of questions that need answering
+
+#### Resources
 
 
 #### Goals
@@ -443,11 +474,19 @@ If you get these skills down you should have an extremely firm foundation when l
 - [ ] TBD
 
 
-### Intermediate Programming in JavaScript
+### Intermediate Programming in JavaScript and Node
 
 Here we dive deeper into the asynchronous nature of JavaScript
 
-- [ ] Promises
+- [ ] (some usage of the "async" library)
+- [ ] can describe the JavaScript event loop
+- [ ] can trigger code to run 500 milliseconds later
+- [ ] can create a new `Promise`
+- [ ] can create a promise chain with steps that are done in parallel, as well as other steps that are done in series
+- [ ] can catch and re-throw errors within a promise chain
+- [ ] can create a Linked List
+- [ ] can create a simple EventEmitter
+- [ ] can use `.bind`, `.call`, and `.apply`
 
 *Resources:*
 
@@ -497,9 +536,14 @@ Leave your trace! Please leave this trail better than when you found it. Please 
 
 **Node**
 
+- sockets
 - ~~[ ] you can install the `serve` npm package globally~~
 - ~~[ ] can create a new node package using `npm init`~~
 - ~~[ ] can define what `npm start` does by modifying `package.json`~~
 - ~~[ ] can define what `npm start` does by modifying `package.json`~~
 - ~~[ ] can install node packages as a dependency~~
 - ~~[ ] can install node packages as a development dependency~~
+- ~~[ ] can explain the JavaScript event loop~~
+- ~~[ ] can implement a `Set` Object using a JavaScript Constructor~~
+- ~~[ ] can explain the `this` keyword~~
+- ~~[ ] can use `setTimeout` to delay code~~
