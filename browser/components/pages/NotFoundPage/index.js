@@ -1,15 +1,8 @@
 import './index.sass'
 import React, { Component } from 'react'
-import Link from '../atoms/Link'
+import Link from '../../atoms/Link'
 
 export default class NotFoundPage extends Component {
-
-  constructor(props){
-    super(props)
-    this.state = {
-      sadCat: randomSadCat()
-    }
-  }
 
   render(){
     return <div className="NotFoundPage">

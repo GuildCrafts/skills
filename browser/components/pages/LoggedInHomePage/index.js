@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Layout from '../molecules/Layout'
+import Layout from '../../molecules/Layout'
 
 export default class LoggedInHomePage extends Component {
   render(){

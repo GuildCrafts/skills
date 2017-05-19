@@ -1,8 +1,8 @@
 import './index.sass'
 import React, { Component } from 'react'
-import Button from '../atoms/Button'
-import InspectObject from '../atoms/InspectObject'
-import Layout from '../molecules/Layout'
+import Button from '../../atoms/Button'
+import InspectObject from '../../atoms/InspectObject'
+import Layout from '../../molecules/Layout'
 
 export default class LoggedOutHomePage extends Component {
   render(){

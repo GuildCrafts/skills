@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import state from '../state'
 import Router from '../Router'
-import InspectObject from './utils/InspectObject'
+import InspectObject from './atoms/InspectObject'
 
 export default class Root extends Component {
 
