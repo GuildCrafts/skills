@@ -46,17 +46,3 @@ beforeEach(function(){ now = moment() })
 export const timeAgo = (number, unit) =>
   now.clone().subtract(number, unit).toDate()
 
-
-
-export const insertPrrr = attributes =>
-  knex
-    .insert(attributes)
-    .into('pull_request_review_requests')
-    .returning('*')
-
-export const getPrrrById = prrrId =>
-  knex
-    .select('*')
-    .from('pull_request_review_requests')
-    .where('id', prrrId)
-    .first()

@@ -7,9 +7,7 @@ beforeEach(done => {
   knex.migrate.latest()
     .then(_ =>
       Promise.all([
-        knex.truncate('users'),
-        knex.truncate('pull_request_review_requests'),
-        knex.truncate('skipped_prrrs'),
+        knex.truncate('skills'),
       ])
     )
     .then(_ => done())
