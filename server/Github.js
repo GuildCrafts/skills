@@ -6,7 +6,7 @@ export default function Github(accessToken){
       debug: true,
       // protocol: "https",
       headers: {
-        "user-agent": "prrr-learnersguild-org", // GitHub is happy with a unique user agent
+        "user-agent": "skills-learnersguild-org", // GitHub is happy with a unique user agent
         // "Accept": 'application/vnd.github.swamp-thing-preview+json',
         "Accept": "application/vnd.github.v3.raw",
       },

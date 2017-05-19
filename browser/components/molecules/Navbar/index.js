@@ -16,10 +16,6 @@ export default class Navbar extends Component {
     const { user } = this.props.session
     return <div className="Navbar">
       <div>
-        <Link className="Navbar-logo" href="/">
-          <img src={prrrCat} />
-          <span>Prrr</span>
-        </Link>
         <IconLink className="Navbar-link" href="/request" type="plus-circle">Request A Review</IconLink>
         <IconLink className="Navbar-link" href="/review"  type="eye"        >Review A PR</IconLink>
         <IconLink className="Navbar-link" href="/metrics" type="area-chart" >Metrics</IconLink>
