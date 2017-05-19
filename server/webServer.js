@@ -7,7 +7,6 @@ import passport from 'passport'
 import session from 'cookie-session'
 import http from 'http'
 import logger from './logger'
-import webSocket from './webSocket'
 
 const publicPath = path.resolve(__dirname, '../public')
 const httpServer = express()
@@ -37,10 +36,9 @@ httpServer.get('/*', (req, res, next) => {
 httpServer.start = function(port, callback){
   httpServer.set('port', port)
   console.log(`http://localhost:${port}/`)
-  const httpServerInstance = http.createServer(httpServer)
-  httpServerInstance.listen(port, callback)
-  webSocket.initialize(httpServer, httpServerInstance)
-  return httpServerInstance
+  httpServer.listen(port)
+  if (callback) callback(httpServer)
+  return httpServer
 }
 
 export default httpServer

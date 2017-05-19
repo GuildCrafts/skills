@@ -5,7 +5,6 @@ import IconLink from '../../atoms/IconLink'
 import Button from '../../atoms/Button'
 import Avatar from '../../atoms/Avatar'
 import './index.sass'
-import prrrCat from '../../../images/prrrCat.ico'
 
 export default class Navbar extends Component {
 

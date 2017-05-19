@@ -1,10 +1,10 @@
 # Pull Request Review Request
 
-[![CircleCI](https://circleci.com/gh/GuildCrafts/prrr.svg?style=svg)](https://circleci.com/gh/GuildCrafts/prrr)
+[![CircleCI](https://circleci.com/gh/GuildCrafts/skills.svg?style=svg)](https://circleci.com/gh/GuildCrafts/skills)
 
 ## Prrr
 
-![prrr](http://www.kittenswhiskers.com/wp-content/uploads/sites/48/2014/05/cat-purring.jpg)
+![skills](http://www.kittenswhiskers.com/wp-content/uploads/sites/48/2014/05/cat-purring.jpg)
 
 
 ## Development
@@ -20,7 +20,7 @@ Go [here](https://github.com/settings/developers) and register a new OAuth
 application.
 
 ```
-Application name: prrr development
+Application name: skills development
 Homepage URL: http://localhost:3000/
 Application Description:
 Authorization callback URL: http://localhost:3000/auth/github/callback
@@ -48,7 +48,7 @@ github oauth*
 *NOTE: you need to run `npm run build` before you can run `knex` commands
 
 ```sh
-createdb prrr-development
-createdb prrr-test
+createdb skills-development
+createdb skills-test
 knex migrate:latest
 ```

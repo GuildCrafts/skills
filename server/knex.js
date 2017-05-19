@@ -4,7 +4,6 @@ import logger from './logger'
 const config = require('../../knexfile')[process.env.NODE_ENV]
 const knex = Knex(config)
 
-
 knex.client.on('start', builder => {
   builder.on('query', query => {
     logger.debug('%s %s %s',

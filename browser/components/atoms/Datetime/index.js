@@ -1,7 +1,7 @@
 import React, { Component, PropTypes } from 'react'
 import moment from 'moment'
 
-export default class Date extends Component {
+export default class Datetime extends Component {
   static propTypes = {
     date: PropTypes.oneOfType([
       PropTypes.instanceOf(moment),
@@ -22,7 +22,7 @@ export default class Date extends Component {
       ? date.fromNow(false)
       : title
     return <span
-      className="Date"
+      className="Datetime"
       title={title}
       value={value}
     >

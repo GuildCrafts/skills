@@ -1,7 +1,7 @@
 const defaultConfig = (env) => {
   const connectionString = (
     process.env.DATABASE_URL ||
-    `postgres://${process.env.USER}@localhost:5432/prrr-${env}`
+    `postgres://${process.env.USER}@localhost:5432/skills-${env}`
   )
 
   return {

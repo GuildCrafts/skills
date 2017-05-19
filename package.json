@@ -1,7 +1,7 @@
 {
-  "name": "prrr",
+  "name": "skills",
   "version": "1.0.0",
-  "description": "[![CircleCI](https://circleci.com/gh/GuildCrafts/prrr.svg?style=svg)](https://circleci.com/gh/GuildCrafts/prrr)",
+  "description": "[![CircleCI](https://circleci.com/gh/GuildCrafts/skills.svg?style=svg)](https://circleci.com/gh/GuildCrafts/skills)",
   "main": "index.js",
   "scripts": {
     "test": "webappatron test",
@@ -44,10 +44,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GuildCrafts/prrr.git"
+    "url": "git+https://github.com/GuildCrafts/skills.git"
   },
   "bugs": {
-    "url": "https://github.com/GuildCrafts/prrr/issues"
+    "url": "https://github.com/GuildCrafts/skills/issues"
   },
-  "homepage": "https://github.com/GuildCrafts/prrr#readme"
+  "homepage": "https://github.com/GuildCrafts/skills#readme"
 }
