@@ -1,10 +1,10 @@
 import state from './state'
+import request from './request'
 
 export function loadSession(){
-  fetch('/session')
-    .then(response => response.json())
-    .then(session => {
-      state.set({session})
+  request('GET', '/session')
+    .then(response => {
+      state.set({session: response.json})
     })
     .catch(loadSessionError => {
       state.set({loadSessionError})

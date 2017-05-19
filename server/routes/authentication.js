@@ -29,18 +29,33 @@ passport.use(
     scope: ['user:email', 'repo'],
   },
   function(accessToken, refreshToken, profile, cb) {
-    new Commands().findOrCreateUserFromGithubProfile({accessToken, refreshToken, profile})
-      .then(user => {
-        cb(undefined, user);
-      })
-      .catch(error => {
-        cb(error)
-      })
+    const profileSession = {
+      name: profile.displayName || profile.username,
+      email: profile.emails[0].value,
+      avatar_url: (
+        profile.photos &&
+        profile.photos[0] &&
+        profile.photos[0].value
+      ),
+      github_id: profile.id,
+      github_username: profile.username,
+      // github_access_token: accessToken,
+      // github_refresh_token: refreshToken,
+    }
+    console.log('profileSession', profileSession)
+    cb(undefined, profileSession)
+    // new Commands().findOrCreateUserFromGithubProfile({accessToken, refreshToken, profile})
+    //   .then(user => {
+    //     cb(undefined, user);
+    //   })
+    //   .catch(error => {
+    //     cb(error)
+    //   })
   }
 ));
 
 passport.serializeUser(function(user, done) {
-  done(null, {github_id: user.github_id});
+  done(null, user);
 });
 
 passport.deserializeUser(function(user, done) {

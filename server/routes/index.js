@@ -6,7 +6,9 @@ const router = new express.Router
 router.use(require('./authentication'))
 
 router.get('/session', (req, res) => {
-  res.json(req.session)
+  res.json({
+    user: req.session.passport.user
+  })
 })
 // router.use(require('./api'))
 
