@@ -17,9 +17,6 @@ export default class Navbar extends Component {
     return <div className="Navbar">
       <div>
         <IconLink className="Navbar-link" href="/request" type="plus-circle">Request A Review</IconLink>
-        <IconLink className="Navbar-link" href="/review"  type="eye"        >Review A PR</IconLink>
-        <IconLink className="Navbar-link" href="/metrics" type="area-chart" >Metrics</IconLink>
-        <IconLink className="Navbar-link" href="/all"     type="circle"     >All Prrrs</IconLink>
       </div>
       <div>
         <Link href={`https://github.com/${user.github_username}`} externalLink className="Navbar-user-name">

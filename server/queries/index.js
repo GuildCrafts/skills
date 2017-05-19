@@ -1,7 +1,6 @@
 import knex from '../knex'
 import moment from 'moment'
 import Github from '../Github'
-import Metrics from './metrics'
 
 export default class Queries {
 

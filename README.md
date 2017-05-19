@@ -2,7 +2,7 @@
 
 [![CircleCI](https://circleci.com/gh/GuildCrafts/skills.svg?style=svg)](https://circleci.com/gh/GuildCrafts/skills)
 
-## Prrr
+## Skills
 
 ![skills](http://www.kittenswhiskers.com/wp-content/uploads/sites/48/2014/05/cat-purring.jpg)
 

@@ -1,7 +1,7 @@
 import express from 'express'
 import passport from 'passport'
-import Queries from './queries'
-import Commands from './commands'
+import Queries from '../queries'
+import Commands from '../commands'
 
 let GITHUB_CLIENT_ID
 let GITHUB_CLIENT_SECRET
@@ -48,12 +48,13 @@ passport.deserializeUser(function(user, done) {
 });
 
 
-router.use('/login', (req, res, next) => {
-  req.session.redirectTo = req.query.r
-  next()
-})
-
-router.get('/login', passport.authenticate('github'));
+router.get('/login',
+  (req, res, next) => {
+    req.session.redirectTo = req.query.r
+    next()
+  },
+  passport.authenticate('github')
+);
 
 
 router.get('/auth/github/callback',

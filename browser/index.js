@@ -2,6 +2,9 @@ import React from 'react'
 import { render } from 'react-dom'
 import './index.sass'
 import Root from './components/Root'
+import { loadSession } from './actions'
+
+loadSession()
 
 render(
   <Root />,
